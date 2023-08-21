@@ -10,3 +10,14 @@ C:\Users\PSF45\Documents\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\PTCDa
 C:\Users\PSF45\Documents\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\PTCData\obj\Debug\net6.0\refint\PTCData.dll
 C:\Users\PSF45\Documents\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\PTCData\obj\Debug\net6.0\PTCData.pdb
 C:\Users\PSF45\Documents\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\PTCData\obj\Debug\net6.0\ref\PTCData.dll
+C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\PTCData\bin\Debug\net6.0\PTCData.deps.json
+C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\PTCData\bin\Debug\net6.0\PTCData.dll
+C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\PTCData\bin\Debug\net6.0\PTCData.pdb
+C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\PTCData\obj\Debug\net6.0\PTCData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\PTCData\obj\Debug\net6.0\PTCData.AssemblyInfoInputs.cache
+C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\PTCData\obj\Debug\net6.0\PTCData.AssemblyInfo.cs
+C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\PTCData\obj\Debug\net6.0\PTCData.csproj.CoreCompileInputs.cache
+C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\PTCData\obj\Debug\net6.0\PTCData.dll
+C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\PTCData\obj\Debug\net6.0\refint\PTCData.dll
+C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\PTCData\obj\Debug\net6.0\PTCData.pdb
+C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\PTCData\obj\Debug\net6.0\ref\PTCData.dll

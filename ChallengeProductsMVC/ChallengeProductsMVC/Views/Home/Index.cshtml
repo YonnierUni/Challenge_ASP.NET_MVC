@@ -26,17 +26,17 @@
             </div>
             <div class="panel-footer">
                 <button id="btnSearch" class="btn btn-sm btn-primary"
-                data-pdsa-action="search">
+                        data-pdsa-action="search">
                     <i class="glyphicon glyphicon-search"></i>
                     &nbsp;Search
                 </button>
                 <button id="btnReset" class="btn btn-sm btn-primary"
-                data-pdsa-action="resetsearch">
+                        data-pdsa-action="resetsearch">
                     <i class="glyphicon glyphicon-search-alt"></i>
                     &nbsp;Reset
                 </button>
                 <button id="btnAdd" class="btn btn-sm btn-primary"
-                data-pdsa-action="add">
+                        data-pdsa-action="add">
                     <i class="glyphicon glyphicon-plus-sign"></i>
                     &nbsp;Add
                 </button>
@@ -95,13 +95,13 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <button id="btnSave" class="btn btn-sm btn-primary"
-                        data-pdsa-action="save">
+                                data-pdsa-action="save">
                             <i class="glyphicon glyphicon-floppy-disk"></i>
                             &nbsp;Save
                         </button>
                         <button id="btnCancel" class="btn btn-sm btn-primary"
-                        formnovalidate="formnovalidate"
-                        data-pdsa-action="cancel">
+                                formnovalidate="formnovalidate"
+                                data-pdsa-action="cancel">
                             <span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                             &nbsp;Cancel
                         </button>
@@ -118,6 +118,7 @@
             <table class="table table-condensed table-bordered table-striped table-hover">
                 <thead>
                     <tr>
+                        <th class="pdsa-action-button-column">Edit</th>
                         <th>Product Name</th>
                         <th>Introduction</th>
                         <th>Url</th>
@@ -128,6 +129,11 @@
                     @foreach (var item in Model.Products)
                     {
                         <tr>
+                            <td class="pdsa-action-button-column">
+                                <a href="#" data-pdsa-action="edit" class="btn btn-default btn-sm">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </a>
+                            </td>
                             <td>@item.ProductName</td>
                             <td>@item.IntroductionDate</td>
                             <td>@item.Url</td>

@@ -8,24 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\PSF45\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\uniyo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PSF45\\Documents\\GitHub\\Challenge_ASP.NET_MVC\\ChallengeProductsMVC\\PTCData\\PTCData.csproj",
+      "projectUniqueName": "C:\\Users\\uniyo\\OneDrive\\Documentos\\PASAR A DISCO\\GitHub\\Challenge_ASP.NET_MVC\\ChallengeProductsMVC\\PTCData\\PTCData.csproj",
       "projectName": "PTCData",
-      "projectPath": "C:\\Users\\PSF45\\Documents\\GitHub\\Challenge_ASP.NET_MVC\\ChallengeProductsMVC\\PTCData\\PTCData.csproj",
-      "packagesPath": "C:\\Users\\PSF45\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PSF45\\Documents\\GitHub\\Challenge_ASP.NET_MVC\\ChallengeProductsMVC\\PTCData\\obj\\",
+      "projectPath": "C:\\Users\\uniyo\\OneDrive\\Documentos\\PASAR A DISCO\\GitHub\\Challenge_ASP.NET_MVC\\ChallengeProductsMVC\\PTCData\\PTCData.csproj",
+      "packagesPath": "C:\\Users\\uniyo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\uniyo\\OneDrive\\Documentos\\PASAR A DISCO\\GitHub\\Challenge_ASP.NET_MVC\\ChallengeProductsMVC\\PTCData\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\PSF45\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\uniyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -67,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
