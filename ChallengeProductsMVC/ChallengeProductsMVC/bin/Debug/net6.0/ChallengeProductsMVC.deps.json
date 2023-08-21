@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ChallengeProductsMVC/1.0.0": {
+        "dependencies": {
+          "PTCData": "1.0.0"
+        },
+        "runtime": {
+          "ChallengeProductsMVC.dll": {}
+        }
+      },
+      "PTCData/1.0.0": {
+        "runtime": {
+          "PTCData.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ChallengeProductsMVC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PTCData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
