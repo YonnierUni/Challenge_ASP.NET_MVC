@@ -1,76 +1,40 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
+﻿using PTCCommon;
 
 namespace PTCData
 {
-    public class TrainingProductViewModel
+    public class TrainingProductViewModel : ViewModelBase
     {
-        public TrainingProductViewModel()
+        public TrainingProductViewModel() : base()
         {
-            Init();
 
-            Products = new List<TrainingProduct>();
-            SearchEntity = new TrainingProduct();
-            Entity = new TrainingProduct();
         }
         public TrainingProduct Entity { get; set; }
-        public string EventCommand { get; set; }
         public List<TrainingProduct> Products { get; set; }
         public TrainingProduct SearchEntity { get; set; }
-        public bool IsValid { get; set; }
-        public string Mode { get; set; }
-        public List<KeyValuePair<string, string>> ValidationErrors { get; set; }
 
-
-        public bool IsDetailAreaVisible { get; set; }
-        public bool IsListAreaVisible { get; set; }
-        public bool IsSearchAreaVisible { get; set; }
-        private void Init()
-        {
-            EventCommand = "List";
-            ValidationErrors = new List<KeyValuePair<string, string>>();
-            ListModel();
-        }
-        public void HandleRequest()
+        public override void HandleRequest()
         {
             switch (EventCommand.ToLower())
             {
-                case "list":
-                case "search":
-                    Get();
-                    break;
-
-                case "save":
-                    Save();
-                    if (IsValid)
-                    {
-                        Get();
-                    }
-                    break;
-
-                case "cancel":
-                    ListModel();
-                    Get();
-                    break;
-
-                case "resetsearch":
-                    ResetSearch();
-                    Get();
-                    break;
-
-                case "add":
-                    Add();
+                case "paul":
                     break;
 
                 default:
                     break;
             }
+            base.HandleRequest();
         }
-        private void Save()
+        protected override void Init()
+        {
+            Products = new List<TrainingProduct>();
+            SearchEntity = new TrainingProduct();
+            Entity = new TrainingProduct();
+
+            base.Init();
+        }
+
+
+        protected override void Save()
         {
             TrainingProductManager mgr = new TrainingProductManager();
 
@@ -78,59 +42,62 @@ namespace PTCData
             {
                 mgr.Insert(Entity);
             }
+            else
+            {
+                mgr.Update(Entity);
+            }
+
             ValidationErrors = mgr.ValidationErrors;
-            if (ValidationErrors.Count() > 0)
-            {
-                IsValid = false;
 
-            }
-
-            if (!IsValid)
-            {
-                if (Mode == "Add")
-                {
-                    AddMode();
-                }
-            }
-
+            base.Save();
         }
-        private void ListModel()
+
+        protected override void Add()
         {
             IsValid = true;
 
-            IsDetailAreaVisible = false;
-            IsListAreaVisible = true;
-            IsSearchAreaVisible = true;
-
-            Mode = "List";
-        }
-        private void Add()
-        {
-            IsValid = true;
             Entity = new TrainingProduct();
             Entity.IntroductionDate = DateTime.Now;
             Entity.Url = "http://";
             Entity.Price = 0;
 
-            AddMode();
+            base.Add();
         }
-        private void AddMode()
+        protected override void Edit()
         {
-            IsDetailAreaVisible = true;
-            IsListAreaVisible = false;
-            IsSearchAreaVisible = false;
+            TrainingProductManager mrg = new TrainingProductManager();
 
-            Mode = "Add";
-        }
-        private void ResetSearch()
-        {
-            SearchEntity = new TrainingProduct();
-        }
+            Entity = mrg.Get(Convert.ToInt32(EventArgument));
 
-        private void Get()
+            base.Edit();
+        }
+        protected override void Delete()
         {
             TrainingProductManager mgr = new TrainingProductManager();
+            Entity = new TrainingProduct();
+            Entity.ProductId = Convert.ToInt32(EventArgument);
+
+            mgr.Delete(Entity);
+
+            Get();
+
+            base.Delete();
+        }
+
+        protected override void ResetSearch()
+        {
+            SearchEntity = new TrainingProduct();
+
+            base.ResetSearch();
+        }
+
+        protected override void Get()
+        {
+            TrainingProductManager mgr = new TrainingProductManager();
+
             Products = mgr.Get(SearchEntity);
+
+            base.Get();
         }
 
     }

@@ -21,3 +21,7 @@ C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\Ch
 C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\PTCData\obj\Debug\net6.0\refint\PTCData.dll
 C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\PTCData\obj\Debug\net6.0\PTCData.pdb
 C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\PTCData\obj\Debug\net6.0\ref\PTCData.dll
+C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\PTCData\bin\Debug\net6.0\PTCCommon.dll
+C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\PTCData\bin\Debug\net6.0\PTCCommon.pdb
+C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\PTCData\obj\Debug\net6.0\PTCData.csproj.AssemblyReference.cache
+C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\PTCData\obj\Debug\net6.0\PTCData.csproj.CopyComplete

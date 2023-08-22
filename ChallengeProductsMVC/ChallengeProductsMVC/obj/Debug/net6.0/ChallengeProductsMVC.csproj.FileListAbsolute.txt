@@ -66,3 +66,5 @@ C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\Ch
 C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\ChallengeProductsMVC\obj\Debug\net6.0\ChallengeProductsMVC.pdb
 C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\ChallengeProductsMVC\obj\Debug\net6.0\ChallengeProductsMVC.genruntimeconfig.cache
 C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\ChallengeProductsMVC\obj\Debug\net6.0\ref\ChallengeProductsMVC.dll
+C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\ChallengeProductsMVC\bin\Debug\net6.0\PTCCommon.dll
+C:\Users\uniyo\OneDrive\Documentos\PASAR A DISCO\GitHub\Challenge_ASP.NET_MVC\ChallengeProductsMVC\ChallengeProductsMVC\bin\Debug\net6.0\PTCCommon.pdb

@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "PTCData/1.0.0": {
+        "dependencies": {
+          "PTCCommon": "1.0.0"
+        },
         "runtime": {
           "PTCData.dll": {}
+        }
+      },
+      "PTCCommon/1.0.0": {
+        "runtime": {
+          "PTCCommon.dll": {}
         }
       }
     }
   },
   "libraries": {
     "PTCData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PTCCommon/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

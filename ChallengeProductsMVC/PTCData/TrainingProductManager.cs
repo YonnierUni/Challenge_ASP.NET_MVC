@@ -26,14 +26,45 @@ namespace PTCData
 
             return ValidationErrors.Count == 0;
         }
+        public bool Delete(TrainingProduct entity)
+        {
+            //TODO: Create DELETE code here.
+
+            return true;
+        }
+
+        public TrainingProduct Get(int productId)
+        {
+            List<TrainingProduct> list = new List<TrainingProduct>();
+            TrainingProduct ret = new TrainingProduct();
+
+            //TOOD; Call your data access method here.
+            list = CreateMockData();
+            ret = list.Find(p => p.ProductId == productId);
+
+            return ret;
+        }
+
+        public bool Update(TrainingProduct entity)
+        {
+            bool ret = false;
+
+            ret = Validate(entity);
+            if (ret)
+            {
+                //TOOD: Create update code here.
+            }
+
+            return ret;
+        }
 
         public bool Insert(TrainingProduct entity)
         {
             bool ret = false;
 
             ret = Validate(entity);
-            
-            if(ret)
+
+            if (ret)
             {
                 //TODO: Create Insert code here
             }
